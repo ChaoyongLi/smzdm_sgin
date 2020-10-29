@@ -3,13 +3,13 @@ import requests
 import json
 
 # 设置Server酱post地址 不需要可以删除
-serverChan = "http://sc.ftqq.com/SCU121298Ta0aa0fae0f12e87dafac2af3e8ca06645f99326b7edb3.send"
+serverChan = "http://sc.ftqq.com/*******************************.send"
 # 状态地址
 current_url = 'https://zhiyou.smzdm.com/user/info/jsonp_get_current'
 # 签到地址
 checkin_url = 'https://zhiyou.smzdm.com/user/checkin/jsonp_checkin'
 # 用用户名和密码登录后获取Cookie
-userCookie = "ZjdhZjV8MTYwNzIxODU3OXw3MzY5MDI5ODU0fDU4MGI2NWI2ODlkZjA5ZmE2MTM4ZDIxMTNmYjA2YjIz"
+userCookie = "***********************************************"
 headers = {
     'Referer': 'https://www.smzdm.com/',
     'Host': 'zhiyou.smzdm.com',
