@@ -2,6 +2,11 @@
 import requests
 import json
 
+test = process.env.TEST
+print(test)
+
+
+
 # 设置Server酱post地址 不需要可以删除
 serverChan = "http://sc.ftqq.com/*******************************.send"
 # 状态地址
